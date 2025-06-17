@@ -1,0 +1,60 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    background-color: #2b2f80;
+    color: white;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navbar-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.navbar-links li a:hover {
+    color: #ffcc70;
+}
+
+.navbar-auth button {
+    margin-left: 12px;
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-btn {
+    background-color: white;
+    color: #2b2f80;
+}
+
+.signup-btn {
+    background-color: #ff7f50;
+    color: white;
+}
+
+.login-btn:hover {
+    background-color: #ddd;
+}
+
+.signup-btn:hover {
+    background-color: #ff6333;
+}

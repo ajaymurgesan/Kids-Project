@@ -1,0 +1,67 @@
+/* SearchBox.css */
+
+.search-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 12px 20px;   /* reduced top/bottom padding */
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    box-shadow: 0 8px 20px rgba(118, 75, 162, 0.4);
+    border-radius: 16px;
+}
+
+.search-form {
+    display: flex;
+    width: 70%;
+    max-width: 700px;
+    background: #fff;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+    height: 48px;   /* fix height to reduce vertical size */
+}
+
+.search-form:focus-within {
+    box-shadow: 0 6px 20px rgba(118, 75, 162, 0.6);
+}
+
+.search-input {
+    flex-grow: 1;
+    padding: 0 20px;  /* reduce vertical padding */
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 50px 0 0 50px;
+    font-weight: 500;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.search-input::placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+.search-button {
+    background: #764ba2;
+    color: white;
+    border: none;
+    padding: 0 25px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 0 50px 50px 0;
+    transition: background 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;   /* fill the search-form height */
+}
+
+.search-button:hover {
+    background: #5a3380;
+    box-shadow: 0 4px 12px rgba(90, 51, 128, 0.7);
+}
