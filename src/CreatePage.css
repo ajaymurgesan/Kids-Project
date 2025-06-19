@@ -1,0 +1,95 @@
+.create-page {
+    padding: 40px 20px;
+    background: linear-gradient(to bottom right, #ffe8ec, #e0f7fa);
+    min-height: 100vh;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.create-page h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: #ff4081;
+    margin-bottom: 40px;
+}
+
+.create-form {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff5fb;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(255, 105, 180, 0.2);
+}
+
+.question-block {
+    margin-bottom: 40px;
+    background: #fff;
+    padding: 20px;
+    border: 2px dashed #ff80ab;
+    border-radius: 16px;
+}
+
+.big-input {
+    width: 100%;
+    padding: 14px 20px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    border: 2px solid #ff80ab;
+    border-radius: 12px;
+}
+
+.options-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.option-input {
+    flex: 1 1 45%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid #ffb6c1;
+    background: #fff0f5;
+}
+
+.answer-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid #ffb6c1;
+}
+
+.add-btn,
+.submit-btn {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.add-btn {
+    background: #ffd54f;
+    color: #5d4037;
+}
+
+.add-btn:hover {
+    background: #ffc107;
+}
+
+.submit-btn {
+    background: #4dd0e1;
+    color: white;
+}
+
+.submit-btn:hover {
+    background: #00acc1;
+}

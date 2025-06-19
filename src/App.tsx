@@ -8,7 +8,10 @@ import CourseCategory from "./CourseCategory";
 import LoginPage from "./LoginPage";
 import SignUpPage from "./SignUpPage";
 import SearchBox from "./SearchBox.tsx";
-
+import GamesPage from "./GamesPage.tsx";
+import AboutPage from "./AboutPage.tsx";
+import CreatePage from "./CreatePage.tsx";
+import CoursesPage from "./CoursesPage.tsx";
 const HomePage = () => (
     <>
         <HeroSection />
@@ -25,6 +28,11 @@ const App: React.FC = () => {
                 <Route path="/" element={<HomePage />} />
                 <Route path="/login" element={<LoginPage />} />
                 <Route path="/signup" element={<SignUpPage />} />
+                <Route path="/games" element={<GamesPage />} />
+                <Route path="/about" element={<AboutPage />} />
+                <Route path="/create" element={<CreatePage />} />
+                <Route path="/courses" element={<CoursesPage />} />
+
             </Routes>
         </BrowserRouter>
     );

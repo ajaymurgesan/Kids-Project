@@ -11,16 +11,21 @@ const SearchBox: React.FC = () => {
     };
 
     return (
-        <div className="search-wrapper">
-            <form className="search-form" onSubmit={handleSubmit}>
-                <input
-                    type="text"
-                    placeholder="What would you like to learn?"
-                    value={query}
-                    onChange={(e) => setQuery(e.target.value)}
-                />
-                <button type="submit">Search</button>
-            </form>
+        <div className="search-box-container">
+            <div className="left-decoration">👧📚🧒</div>
+            <div className="search-wrapper">
+                <form className="search-form" onSubmit={handleSubmit}>
+                    <input
+                        type="text"
+                        placeholder="What would you like to learn?"
+                        value={query}
+                        onChange={(e) => setQuery(e.target.value)}
+                        className="search-input"
+                    />
+                    <button type="submit" className="search-button">Search</button>
+                </form>
+            </div>
+            <div className="right-decoration">🚀🚀</div>
         </div>
     );
 };

@@ -13,6 +13,7 @@ const Navbar: React.FC = () => {
                 <li><Link to="/games">Games</Link></li>
                 <li><Link to="/create">Create</Link></li>
                 <li><Link to="/about">About</Link></li>
+
             </ul>
             <div className="navbar-auth">
                 <Link to="/login"><button className="login-btn">Log In</button></Link>
