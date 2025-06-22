@@ -1,6 +1,7 @@
 // src/GamesPage.tsx
 import React from "react";
 import "./GamesPage.css";
+import { Link } from "react-router-dom";
 
 const games = [
     {
@@ -45,7 +46,11 @@ const GamesPage: React.FC = () => {
                         <div className="game-icon">{game.image}</div>
                         <h3>{game.title}</h3>
                         <p>{game.description}</p>
-                        <button className="play-button">Play</button>
+                        {game.title === "Math Puzzle" ? (
+                            <Link to="/Mathgames" className="play-button">Play</Link>
+                        ) : (
+                            <button className="play-button">Play</button>
+                        )}
                     </div>
                 ))}
             </div>

@@ -1,0 +1,100 @@
+/* src/MathGame.css */
+.math-game-container {
+    max-width: 600px;
+    margin: 60px auto;
+    background: linear-gradient(135deg, #ffe8ec, #e0f7fa);
+    border-radius: 24px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #4a148c;
+}
+
+.input-section input {
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border-radius: 12px;
+    border: 2px solid #aaa;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.input-section button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #8e24aa;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.input-section button:hover {
+    background-color: #6a1b9a;
+}
+
+.question-section h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.option-btn {
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.option-btn:hover {
+    transform: scale(1.05);
+}
+
+.correct {
+    background-color: #a5d6a7 !important;
+    color: #2e7d32;
+}
+
+.wrong {
+    background-color: #ef9a9a !important;
+    color: #c62828;
+}
+
+.feedback {
+    font-size: 1.3rem;
+    margin-top: 16px;
+    font-weight: bold;
+}
+
+.restart-btn {
+    margin-top: 20px;
+    padding: 10px 24px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 12px;
+    background-color: #3949ab;
+    color: white;
+    cursor: pointer;
+}
+
+.restart-btn:hover {
+    background-color: #283593;
+}

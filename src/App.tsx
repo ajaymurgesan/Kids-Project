@@ -12,6 +12,7 @@ import GamesPage from "./GamesPage.tsx";
 import AboutPage from "./AboutPage.tsx";
 import CreatePage from "./CreatePage.tsx";
 import CoursesPage from "./CoursesPage.tsx";
+import MathGame from "./MathGame.tsx";
 const HomePage = () => (
     <>
         <HeroSection />
@@ -32,6 +33,7 @@ const App: React.FC = () => {
                 <Route path="/about" element={<AboutPage />} />
                 <Route path="/create" element={<CreatePage />} />
                 <Route path="/courses" element={<CoursesPage />} />
+                <Route path="/Mathgames" element={<MathGame />} />
 
             </Routes>
         </BrowserRouter>
